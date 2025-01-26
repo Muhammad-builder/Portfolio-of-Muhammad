@@ -1,0 +1,164 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(90deg, black,blue,green,springgreen,greenyellow,tomato,orangered,maroon) ;
+    color:white;
+    display:flex;
+    animation: 4s forwards;
+}
+.logo{
+    font-family: 'Trebuchet MS';
+    color: white ;
+    text-shadow: 5px 5px 5px red ;
+    font-size: 40px;
+    font-weight:700px;
+    margin-top: 10px;
+    margin-left: 2px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color:black;
+    width: 150px;
+    height:50px ;
+    line-height: 50px;
+    border: 5px solid white;
+    text-align: center;
+    float: left;
+    text-shadow: 5px 5px 5px wheat;
+}
+.navbar ul li a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.25s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul {
+    display:block; 
+}
+
+
+
+
+
+.f-head{
+    width: 600px; height: 80px;
+    background: linear-gradient(45deg, red,green) ;
+    border :9px dotted blue; border-radius: 20px;
+    margin : auto; margin-top:50px;
+    color :white;
+    text-align: center;
+    outline: 10px solid green;
+    font-style: italic ; font-size: 65px; font-family: Elephant;
+    text-shadow: 5px 5px 5px black;
+    animation: box 4s infinite;
+}
+    @keyframes box{
+    0%{transform:scale(0.7) rotate(3deg); }
+    12.5%{transform:scale(0.8) rotate(0deg); }
+    25%{transform:scale(0.9) rotate(-3deg); }
+    37.5%{transform:scale(1) rotate(0deg); }
+    50%{transform:scale(1.1) rotate(3deg); }
+    7.5%{transform:scale(1) rotate(0deg); }
+    80%{transform:scale(0.9) rotate(-3deg); }
+    92.5%{transform:scale(0.8) rotate(0deg); }
+    100%{transform:scale(0.7) rotate(3deg); }
+}
+.f-head:hover{
+color: blueviolet
+
+}
+.f-head:active{
+    color:yellow
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#an{
+    width: 400px; height: 400px;
+    background: tomato ;
+    border :9px solid turquoise; border-radius: 200px;
+    align-items: center; justify-content: center; display: flex;
+    margin : auto; margin-top:50px;
+    font-style: italic ; font-size: 65px; font-family: Elephant;
+    animation: an 8s infinite forwards;
+}
+    @keyframes an{
+    0%{transform:scale(0.7) rotate(0deg);  background-color: tomato; border-color: aqua; }
+    12.5%{transform:scale(0.8) rotate(90deg);  background-color: wheat;  border-color: thistle; }
+    25%{transform:scale(0.9) rotate(180deg);  background-color: springgreen;  border-color: teal; }
+    37.5%{transform:scale(1) rotate(270deg);  background-color: tan;  border-color: firebrick; }
+    50%{transform:scale(1.1) rotate(360deg);  background-color: greenyellow;  border-color: burlywood; }
+    7.5%{transform:scale(1) rotate(270deg);  background-color: orange;  border-color:cornflowerblue; }
+    80%{transform:scale(0.9) rotate(180deg);  background-color: orangered;  border-color: crimson; }
+    92.5%{transform:scale(0.8) rotate(90deg);  background-color: blueviolet;  border-color: floralwhite; }
+    100%{transform:scale(0.7) rotate(0deg);  background-color: blue;  border-color: aquamarine; }
+
+}
+
+
+
+#anc{
+    width: 190px; height: 190px;
+    border: 5px solid black;
+    background-color: wheat;
+    animation : anc 8s infinite forwards;
+
+}
+
+@keyframes anc{
+    0%{transform:scale(0.7) rotate(0deg);  background-color: tan; }
+    12.5%{transform:scale(0.8) rotate(90deg);  background-color: wheat; }
+    25%{transform:scale(0.9) rotate(180deg);  background-color: whitesmoke; }
+    37.5%{transform:scale(1) rotate(270deg);  background-color: tomato; }
+    50%{transform:scale(1.1) rotate(360deg);  background-color: yellow; }
+    7.5%{transform:scale(1) rotate(270deg);  background-color: orange; }
+    80%{transform:scale(0.9) rotate(180deg);  background-color: turquoise; }
+    92.5%{transform:scale(0.8) rotate(90deg);  background-color: blue; }
+    100%{transform:scale(0.7) rotate(0deg);  background-color: blueviolet; }
+}
+
+
+
+
+
+
+/*
+
+border :9px dotted blue; border-radius: 20px;
+margin : auto; margin-top:50px;
+font-style: italic ; font-size: 65px; font-family: Elephant;
+animation: an 0s infinite;
+
+*/
